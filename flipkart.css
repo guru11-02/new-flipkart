@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+     font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+/* search row */
+
+.trow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.srow{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+   
+}
+.srow2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.simg{
+    height: 30px;
+}
+
+
+/* icon row */
+
+.iconimg{
+    height: 40px;
+    width: 40;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon{
+    display: flex;
+    overflow-x: scroll;
+}
+.icondiv{
+padding: 10px;
+
+margin-top: 0%;
+margin: 10px;
+text-align: center;
+}
+
+.icon div :hover{
+    background-image: linear-gradient(to bottom , blue , white);
+   border-radius: 5px;
+}
+
+
+/* Big img div */
+
+
+.bigdiv{
+display: flex;
+overflow-x: scroll;
+background-image: radial-gradient(yellow , orange);
+}
+
+.bigimg{
+    border-radius: 40px;
+    width: 100%;
+    margin: 15px;
+  
+}
+
+.bigimg img{
+    width: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* mobiles */
+
+.mobles{
+     padding: 20px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    border-radius: 20px;
+   
+}
+
+.mobles img{
+    border-radius: 20px;
+
+}
+
+.mobile{
+    background-color: rgb(220, 224, 227);
+    padding: 10px;
+    border-radius: 20px;
+
+    color: rebeccapurple;
+    text-align: center;
+  
+}
+
+
+
+/* disflex */
+
+.disflex h2{
+
+    color: white;
+    width: 30%;
+
+}
+
+
+.disflex{
+    background-image: url('https://rukminim2.flixcart.com/fk-p-flap/940/380/image/4a7ab6dc5bad4947.png?q=60');
+    background-size: cover;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius:20px;
+    
+}
+
+.disgrid{
+    padding: 20px;
+    background-image: linear-gradient(to bottom ,  yellow , orange , rgb(167, 110, 5));
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 15px;
+    border-radius: 20px;
+    
+}
+.disgrid div{
+    height: max-content ;
+    color: aliceblue;
+}
+
+.gimg{
+
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.techimg{
+
+    width: 15%;
+    margin: 2%;
+
+}
+
+
+
+
+
+/* Section 3 */
+
+.offer-zone{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    overflow-x:scroll;
+    overflow: hidden;
+}
+
+.catimg{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.Catager-row{
+    margin: 10px;
+}
